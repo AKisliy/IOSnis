@@ -186,7 +186,7 @@ extension UIView{
     // MARK: - Set width
     @discardableResult
     func setWidth(
-        value const: Double = 1,
+        value const: Double,
         _ mode: ConstraintMode = .equal
     ) -> NSLayoutConstraint{
         pinDimension(mode: mode, widthAnchor, constant: const)
